@@ -1,4 +1,4 @@
-// Copyright (c) 2015-2017 The Decred developers 
+// Copyright (c) 2015-2017 The Decred developers
 // Copyright (c) 2018-2020 The Hc developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
@@ -6,9 +6,8 @@
 package edwards
 
 import (
+	"github.com/duwu/hcd/hcutil/ed25519/edwards25519"
 	"math/big"
-
-	"github.com/agl/ed25519/edwards25519"
 )
 
 var (
